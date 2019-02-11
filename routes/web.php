@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('investments', 'InvestmentsController');
+Route::resource('investments', 'InvestmentController');
+Route::resource('users', 'UserController');
+

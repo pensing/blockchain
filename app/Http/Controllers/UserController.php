@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Investment;
+use App\User;
 use Illuminate\Http\Request;
 
-class InvestmentController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class InvestmentController extends Controller
      */
     public function index()
     {
-        return view('investments.index');
+        return view('users.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class InvestmentController extends Controller
      */
     public function create()
     {
-        return view('investments.create');
+        return view('users.create');
     }
 
     /**
@@ -41,10 +41,10 @@ class InvestmentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Investment  $Investment
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(Investment $Investment)
+    public function show(User $user)
     {
         //
     }
@@ -52,10 +52,10 @@ class InvestmentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Investment  $Investment
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function edit(Investment $Investment)
+    public function edit(User $user)
     {
         //
     }
@@ -64,10 +64,10 @@ class InvestmentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Investment  $Investment
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Investment $Investment)
+    public function update(Request $request, User $user)
     {
         //
     }
@@ -75,10 +75,10 @@ class InvestmentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Investment  $Investment
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Investment $Investment)
+    public function destroy(User $user)
     {
         //
     }
