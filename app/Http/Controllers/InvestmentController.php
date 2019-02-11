@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\investment;
+use App\Investment;
 use Illuminate\Http\Request;
 
 class InvestmentController extends Controller
@@ -41,10 +41,10 @@ class InvestmentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\investment  $investment
+     * @param  \App\Investment  $Investment
      * @return \Illuminate\Http\Response
      */
-    public function show(investment $investment)
+    public function show(Investment $Investment)
     {
         //
     }
@@ -52,10 +52,10 @@ class InvestmentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\investment  $investment
+     * @param  \App\Investment  $Investment
      * @return \Illuminate\Http\Response
      */
-    public function edit(investment $investment)
+    public function edit(Investment $Investment)
     {
         //
     }
@@ -64,10 +64,10 @@ class InvestmentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\investment  $investment
+     * @param  \App\Investment  $Investment
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, investment $investment)
+    public function update(Request $request, Investment $Investment)
     {
         //
     }
@@ -75,10 +75,10 @@ class InvestmentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\investment  $investment
+     * @param  \App\Investment  $Investment
      * @return \Illuminate\Http\Response
      */
-    public function destroy(investment $investment)
+    public function destroy(Investment $Investment)
     {
         //
     }
