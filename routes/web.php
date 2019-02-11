@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::resource('investments', 'InvestmentController');
 Route::resource('users', 'UserController');
+Route::resource('feedback', 'FeedbackController');
 
