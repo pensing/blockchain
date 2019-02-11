@@ -15,7 +15,7 @@
       <a href="/users">Users</a><br>
       <a href="/users/create">Create user</a><br>
       <a href="/feedback">Feedback</a><br>
-      <a href="/investments/create">Create feedback</a><br>
+      <a href="/feedback/create">Create feedback</a><br>
    </div>
 </body>
 </html>
