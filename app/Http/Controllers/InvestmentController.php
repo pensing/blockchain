@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Investment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class InvestmentController extends Controller
 {
@@ -40,6 +41,8 @@ class InvestmentController extends Controller
             'recipient' => ['required', 'min:3', 'max:50'],
             'amount' => ['required']
         ]);
+
+        $attributes['investor'] = Auth::id();
 
         Investment::create($attributes);
 
