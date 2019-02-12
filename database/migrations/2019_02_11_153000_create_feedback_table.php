@@ -15,8 +15,9 @@ class CreateFeedbackTable extends Migration
     {
         Schema::create('feedback', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('investor_id');
-            $table->unsignedInteger('recipient_id');
+            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('investment_id');
+            $table->unsignedInteger('score');
             $table->timestamps();
         });
     }
