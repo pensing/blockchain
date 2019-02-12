@@ -15,7 +15,7 @@ class CreateRecipientsTable extends Migration
     {
         Schema::create('recipients', function (Blueprint $table) {
             $table->increments('id');
-            $table->increments('user_id');
+            $table->unsignedInteger('user_id');
             $table->timestamps();
         });
     }
