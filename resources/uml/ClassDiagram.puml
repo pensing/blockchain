@@ -1,0 +1,44 @@
+@startuml
+class users{
+   (field) id
+   (field) name
+   (field) email:unique
+   (field) email_verified_at
+   (field) password
+   (field) userrol_id
+    rememberToken()
+    timestamps()
+}
+class investment{
+    (field) id
+    (field) invester_id
+    (field) recipient_id
+    timestamps()
+}
+class feedback{
+    (field) id
+    (field) investment_id
+    (field) user_id
+    timestamps()
+}
+class userrol{
+    (field) id
+    (field) rolname
+    timestamps()
+}
+class invester{
+   (field) id
+    timestamps()
+}
+class recipient{
+   (field) id
+    timestamps()
+}
+users -- recipient
+users -- invester
+users -- userrol
+invester "1" -- "1" investment
+recipient "1" -- "1" investment
+investment "1" -- "*" feedback
+
+@enduml
