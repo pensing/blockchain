@@ -14,7 +14,8 @@ class InvestmentController extends Controller
      */
     public function index()
     {
-        return view('investments.index');
+        $investments = Investment::all();
+        return view('investments.index', ['investments' => $investments]);
     }
 
     /**
@@ -35,7 +36,14 @@ class InvestmentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $attributes = request()->validate([
+            'recipient' => ['required', 'min:3', 'max:50'],
+            'amount' => ['required']
+        ]);
+
+        Investment::create($attributes);
+
+        return redirect('/investments');
     }
 
     /**
