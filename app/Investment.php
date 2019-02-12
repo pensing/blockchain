@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Investment extends Model
 {
-    protected $fillable = ['recipient', 'amount'];  
+    protected $fillable = ['recipient', 'amount', 'investor'];  
 
     
 }
