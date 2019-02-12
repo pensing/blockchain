@@ -19,3 +19,7 @@ Route::resource('investments', 'InvestmentController');
 Route::resource('users', 'UserController');
 Route::resource('feedback', 'FeedbackController');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

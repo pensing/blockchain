@@ -4,4 +4,16 @@
 
 <h1>investments index page</h1>
 
+<ul>
+    @foreach ($investments as $investment)
+        <li>
+            {{ $investment->recipient}}
+        </li>   
+        <li>
+            {{ $investment->amount}}
+        </li>
+        <hr>
+    @endforeach
+</ul>
+
 @endsection
