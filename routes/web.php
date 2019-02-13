@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('investments', 'InvestmentController');
 Route::resource('users', 'UserController');
-Route::resource('feedback', 'FeedbackController');
+
+//User can access these pages after login
+Route::resource('investments', 'InvestmentController')->middleware('auth');
+Route::resource('feedback', 'FeedbackController')->middleware('auth');
 
 
 Auth::routes();

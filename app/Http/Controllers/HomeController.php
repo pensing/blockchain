@@ -23,6 +23,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $user = auth()->user();
+        $userinfo['name'] = $user->name;
+        $userinfo['email'] = $user->email;
+        $userrol = $user->userRol()->get();
+        $userinfo['rolname'] = $userrol[0]->rolname;
+
+        return view('home', compact('userinfo'));
     }
 }

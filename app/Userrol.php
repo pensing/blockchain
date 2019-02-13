@@ -8,8 +8,8 @@ class Userrol extends Model
 {
     protected $guarded = [];
     
-    public function userRol(){
-        return $this->hasOne('App\User');
+    public function user(){
+        return $this->belongsTo('App\User');
     }
     
     public function createUserRol($attributes){

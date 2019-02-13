@@ -15,6 +15,20 @@
                     @endif
 
                     You are logged in!
+                    
+                    <div class="container">
+                        <h3>User info</h3>
+                        <table class="table">
+                            <tbody>
+                                @foreach($userinfo as $key => $user)
+                                    <tr >
+                                        <td >{{$key}}</td>
+                                        <td >: {{$user}}</td>
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

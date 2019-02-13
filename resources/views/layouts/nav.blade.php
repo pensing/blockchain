@@ -1,4 +1,4 @@
-<nav class=''>
+<nav class='navbar-laravel'>
 
        <a class="nav-item" href="/">Home</a><br>
        <a class="nav-item" href="/investments">Investments</a><br>
