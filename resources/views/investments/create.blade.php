@@ -7,9 +7,11 @@
 <form method="POST" action="/investments">
 
     {{ csrf_field() }}
-
     <div>
-        <input type="text" name="recipient" placeholder="Transfer to" class="input {{ $errors->has('recipient') ? 'is-danger' : '' }}" value="{{ old('amount') }}" required>
+        <input type="text" name="name" placeholder="name" class="input {{ $errors->has('name') ? 'is-danger' : '' }}" value="{{ old('name') }}" required>
+    </div> 
+    <div>
+        <input type="text" name="recipient" placeholder="Transfer to" class="input {{ $errors->has('recipient') ? 'is-danger' : '' }}" value="{{ old('recipient') }}" required>
     </div>  
 
     <div>

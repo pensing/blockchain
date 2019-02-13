@@ -7,6 +7,9 @@
 <ul>
     @foreach ($investments as $investment)
         <li>
+            {{ $investment->name}}
+        </li>
+        <li>
             {{ $investment->recipient}}
         </li>   
         <li>

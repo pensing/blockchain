@@ -38,6 +38,7 @@ class InvestmentController extends Controller
     public function store(Request $request)
     {
         $attributes = request()->validate([
+            'name' => ['required'],
             'recipient' => ['required', 'min:3', 'max:50'],
             'amount' => ['required']
         ]);

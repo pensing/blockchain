@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Feedback;
+use App\Investment;
 use Illuminate\Http\Request;
 
 class FeedbackController extends Controller
@@ -14,7 +15,8 @@ class FeedbackController extends Controller
      */
     public function index()
     {
-        return view('feedback.index');
+        $feedbacklist = Feedback::all();
+        return view('feedback.index', compact('feedbacklist'));
     }
 
     /**
@@ -24,7 +26,9 @@ class FeedbackController extends Controller
      */
     public function create()
     {
-        return view('feedback.create');
+        $investmentlist = (new Investment)->investmentslist();
+
+        return view('feedback.create', compact('investmentlist'));
 
     }
 
@@ -36,7 +40,15 @@ class FeedbackController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+            $attributes = request()->validate([
+                'score'=>['required'],
+            ]);
+            $attributes['user_id']= auth()->id();
+            $attributes['investment_id']= request()->investment_id;
+
+            Feedback::create($attributes);
+            return redirect('/feedback');
     }
 
     /**

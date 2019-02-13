@@ -18,8 +18,8 @@ Route::get('/', function () {
 Route::resource('users', 'UserController');
 
 //User can access these pages after login
-Route::resource('investments', 'InvestmentController')->middleware('auth');
-Route::resource('feedback', 'FeedbackController')->middleware('auth');
+Route::resource('/investments', 'InvestmentController')->middleware('auth');
+Route::resource('/feedback', 'FeedbackController')->middleware('auth');
 
 
 Auth::routes();
