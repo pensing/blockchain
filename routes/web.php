@@ -25,3 +25,5 @@ Route::resource('feedback', 'FeedbackController')->middleware('auth');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('api/', "ApiController");
