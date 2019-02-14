@@ -37,6 +37,6 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
     public function userRol(){
-        return $this->hasOne('App\UserRol');
+        return $this->hasOne('App\Userrol');
     }
 }
