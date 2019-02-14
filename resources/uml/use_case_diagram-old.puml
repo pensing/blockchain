@@ -1,0 +1,45 @@
+@startuml
+actor ECMC
+actor hulpverleners
+actor bevolking
+actor bedrijven
+
+note "camera\ntelefoon\nzender-ontvangen" as source2
+hulpverleners -left- source2
+source2 -up-(crisis locatie)
+
+note "foto\nsms\ntelefoon\nApp" as source1
+bevolking -- source1
+source1 --(crisis locatie)
+
+note "sensors\nmobiel locater\nlucht analyse\nwindmeters\nVideo camera\n enz" as source3
+ECMC -- source3
+source3 --(crisis locatie)
+
+ECMC -left- bedrijfshulpverleners
+bedrijfshulpverleners -- (crisis locatie)
+
+bevolking <-up-> (Waarnemingen)
+(Waarnemingen) <-right-> ECMC : feedback
+
+ECMC <--> (opdrachten) : feedback
+(opdrachten) <--> hulpverleners
+
+(Soorten stoffen DB) <--> ECMC
+bedrijven --> (Soorten stoffen DB)
+universiteiten --> (Soorten stoffen DB)
+Brandweer --> (Soorten stoffen DB)
+
+bedrijven <--> (closed data)
+(closed data) <--> ECMC
+
+Internet <-left-> ECMC : open data
+
+(bronnen) <-left-> ECMC
+note bottom of (bronnen)
+  gemeente
+  kvk
+  enz
+end note
+
+@enduml

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1007px" preserveAspectRatio="none" style="width:684px;height:1007px;" version="1.1" viewBox="0 0 684 1007" width="684px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1gwtuw81asu9j" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--entity ECMC-->
+        <ellipse cx="399" cy="278" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M399,286 L399,313 M386,294 L412,294 M399,313 L386,328 M399,313 L412,328 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="379" y="349.5332">ECMC</text>
+        <!--entity hulpverleners-->
+        <ellipse cx="409" cy="935" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M409,943 L409,970 M396,951 L422,951 M409,970 L396,985 M409,970 L422,985 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="366" y="1006.5332">hulpverleners</text>
+        <!--entity bevolking-->
+        <ellipse cx="90" cy="424" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M90,432 L90,459 M77,440 L103,440 M90,459 L77,474 M90,459 L103,474 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="60" y="495.5332">bevolking</text>
+        <!--entity bedrijven-->
+        <ellipse cx="360" cy="18" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M360,26 L360,53 M347,34 L373,34 M360,53 L347,68 M360,53 L373,68 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="331" y="89.5332">bedrijven</text>
+        <polygon fill="#FBFB77" filter="url(#f1gwtuw81asu9j)" points="174,938,174,997.0547,296,997.0547,296,948,286,938,174,938" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="286" x2="286" y1="938" y2="948"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="296" x2="286" y1="948" y2="948"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="180" y="956.4951">camera</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="45" x="180" y="972.8467">telefoon</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="180" y="989.1982">zender-ontvangen</text>
+        <ellipse cx="234.9472" cy="848.4517" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="57.4472" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="196.4472" y="853.7564">crisis locatie</text>
+        <polygon fill="#FBFB77" filter="url(#f1gwtuw81asu9j)" points="108,667,108,742.4063,174,742.4063,174,677,164,667,108,667" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="164" x2="164" y1="667" y2="677"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="174" x2="164" y1="677" y2="677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="114" y="685.4951">foto</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="114" y="701.8467">sms</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="45" x="114" y="718.1982">telefoon</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="114" y="734.5498">App</text>
+        <polygon fill="#FBFB77" filter="url(#f1gwtuw81asu9j)" points="261,529,261,637.1094,363,637.1094,363,539,353,529,261,529" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="353" x2="353" y1="529" y2="539"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="363" x2="353" y1="539" y2="539"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="267" y="547.4951">sensors</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="267" y="563.8467">mobiel locater</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="267" y="580.1982">lucht analyse</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="66" x="267" y="596.5498">windmeters</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="267" y="612.9014">Video camera</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="271" y="629.2529">enz</text>
+        <!--entity bedrijfshulpverleners-->
+        <ellipse cx="243" cy="278" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M243,286 L243,313 M230,294 L256,294 M243,313 L230,328 M243,313 L256,328 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="177" y="349.5332">bedrijfshulpverleners</text>
+        <ellipse cx="74.1311" cy="310.5262" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="68.1311" ry="16.0262" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="26.1311" y="315.8309">Waarnemingen</text>
+        <ellipse cx="407.9117" cy="787.4517" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="53.9117" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="371.9117" y="792.7564">opdrachten</text>
+        <ellipse cx="481.9182" cy="171.8836" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="77.4182" ry="17.8836" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="421.9182" y="177.1883">Soorten stoffen DB</text>
+        <!--entity universiteiten-->
+        <ellipse cx="474" cy="18" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M474,26 L474,53 M461,34 L487,34 M474,53 L461,68 M474,53 L487,68 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="432" y="89.5332">universiteiten</text>
+        <!--entity Brandweer-->
+        <ellipse cx="585" cy="18" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M585,26 L585,53 M572,34 L598,34 M585,53 L572,68 M585,53 L598,68 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="551" y="89.5332">Brandweer</text>
+        <ellipse cx="315.1188" cy="171.9517" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="54.6188" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="278.6188" y="177.2564">closed data</text>
+        <!--entity Internet-->
+        <ellipse cx="537" cy="278" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M537,286 L537,313 M524,294 L550,294 M537,313 L524,328 M537,313 L550,328 " fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="513" y="349.5332">Internet</text>
+        <ellipse cx="636.9767" cy="310.4517" fill="#FEFECE" filter="url(#f1gwtuw81asu9j)" rx="40.4767" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="610.4767" y="315.7564">bronnen</text>
+        <polygon fill="#FBFB77" filter="url(#f1gwtuw81asu9j)" points="598,427,598,486.0547,676,486.0547,676,437,666,427,598,427" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="598,427,598,486.0547,676,486.0547,676,437,666,427,641,427,637,326.1,633,427,598,427" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="666" x2="666" y1="427" y2="437"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="676" x2="666" y1="437" y2="437"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="604" y="445.4951">gemeente</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="604" y="461.8467">kvk</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="604" y="478.1982">enz</text>
+        <path d="M296.172,967.5 C319.384,967.5 342.596,967.5 365.808,967.5 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M235,864.318 C235,882.765 235,914.676 235,937.9394 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M98.6515,499.231 C108.399,546.249 124.092,621.945 133.39,666.794 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M165.207,742.069 C184.79,771.652 211.339,811.757 225.377,832.963 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M384.422,353.3 C378.031,371.851 370.517,393.973 364,414 C351.529,452.324 338.093,495.792 328.004,528.911 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M304.224,637.113 C296.534,682.318 282.726,748.412 261,803 C256.831,813.475 250.467,824.419 245.079,832.832 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M309.117,310.5 C332.407,310.5 355.697,310.5 378.987,310.5 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M242.379,353.113 C240.723,464.045 236.259,763.147 235.219,832.843 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M76.2491,331.742 C78.4573,351.616 81.9054,382.648 84.7962,408.666 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="85.3664,413.798,88.3467,404.4109,84.8136,408.8287,80.3958,405.2955,85.3664,413.798" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="75.682,326.638,72.7017,336.0251,76.2348,331.6073,80.6526,335.1405,75.682,326.638" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M97.0353,291.791 C136.328,262.238 218.959,210.319 290,233 C322.901,243.504 354.366,267.965 374.958,286.618 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="378.674,290.029,374.7498,280.9957,374.991,286.6474,369.3392,286.8886,378.674,290.029" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="92.9154,294.928,102.4993,292.6591,96.8937,291.8993,97.6535,286.2937,92.9154,294.928" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="237" y="234.4951">feedback</text>
+        <path d="M399.888,358.39 C401.812,459.934 406.298,696.662 407.624,766.665 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="407.721,771.791,411.5506,762.7172,407.6267,766.7919,403.552,762.868,407.721,771.791" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="399.791,353.237,395.9614,362.3108,399.8853,358.2361,403.96,362.16,399.791,353.237" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="404" y="461.9951">feedback</text>
+        <path d="M408.111,808.342 C408.262,835.053 408.533,883.403 408.737,919.6374 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="408.766,924.8916,412.7153,915.8692,408.7379,919.8917,404.7154,915.9143,408.766,924.8916" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="408.082,803.066,404.1309,812.0876,408.1091,808.0659,412.1308,812.0442,408.082,803.066" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M468.916,194.517 C456.301,215.264 436.946,247.095 421.796,272.011 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="419.018,276.578,427.1116,270.966,421.6156,272.3057,420.276,266.8098,419.018,276.578" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="471.656,190.012,463.5624,195.624,469.0584,194.2843,470.398,199.7802,471.656,190.012" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M389.222,80.123 C411.427,101.874 441.427,131.259 461.226,150.652 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="465.044,154.392,461.4139,145.2365,461.4722,150.8931,455.8157,150.9514,465.044,154.392" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M476.798,93.295 C478.053,112.041 479.482,133.386 480.524,148.955 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="480.862,154.002,484.2513,144.7547,480.5277,149.0132,476.2692,145.2896,480.862,154.002" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M550.988,90.96 C533.918,110.764 513.94,133.944 499.888,150.246 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="496.449,154.237,505.3548,150.0314,499.7134,150.4497,499.2951,144.8083,496.449,154.237" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M342.401,98.234 C335.448,116.7 327.837,136.91 322.405,151.334 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="320.508,156.373,327.4238,149.3607,322.2705,151.6939,319.9373,146.5407,320.508,156.373" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="344.261,93.295,337.3471,100.3092,342.4997,97.9745,344.8344,103.1272,344.261,93.295" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M326.563,191.79 C339.299,212.486 360.101,246.289 376.153,272.373 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="378.888,276.818,377.5789,267.0565,376.268,272.5594,370.7651,271.2486,378.888,276.818" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="323.831,187.35,325.1401,197.1115,326.451,191.6086,331.9539,192.9194,323.831,187.35" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M424.231,310.5 C447.75,310.5 482.824,310.5 507.6,310.5 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="512.723,310.5,503.723,306.5,507.723,310.5,503.723,314.5,512.723,310.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="419.066,310.5,428.066,314.5,424.066,310.5,428.066,306.5,419.066,310.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="437.5" y="303.9951">open data</text>
+        <path d="M423.18,286.132 C444.573,266.43 477.717,240.194 512.5,229 C532.807,222.464 540.922,220.525 560.5,229 C589.475,241.542 612.519,271.06 625.468,290.911 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="628.231,295.237,626.7603,285.4986,625.5408,291.0224,620.017,289.8029,628.231,295.237" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="419.325,289.73,428.6347,286.5161,422.9813,286.3195,423.1779,280.666,419.325,289.73" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <!--
+@startuml
+actor ECMC
+actor hulpverleners
+actor bevolking
+actor bedrijven
+
+note "camera\ntelefoon\nzender-ontvangen" as source2
+hulpverleners -left- source2
+source2 -up-(crisis locatie)
+
+note "foto\nsms\ntelefoon\nApp" as source1
+bevolking - - source1
+source1 - -(crisis locatie)
+
+note "sensors\nmobiel locater\nlucht analyse\nwindmeters\nVideo camera\n enz" as source3
+ECMC - - source3
+source3 - -(crisis locatie)
+
+ECMC -left- bedrijfshulpverleners
+bedrijfshulpverleners - - (crisis locatie)
+
+bevolking <-up-> (Waarnemingen)
+(Waarnemingen) <-right-> ECMC : feedback
+
+ECMC <- -> (opdrachten) : feedback
+(opdrachten) <- -> hulpverleners
+
+(Soorten stoffen DB) <- -> ECMC
+bedrijven - -> (Soorten stoffen DB)
+universiteiten - -> (Soorten stoffen DB)
+Brandweer - -> (Soorten stoffen DB)
+
+bedrijven <- -> (closed data)
+(closed data) <- -> ECMC
+
+Internet <-left-> ECMC : open data
+
+(bronnen) <-left-> ECMC
+note bottom of (bronnen)
+  gemeente
+  kvk
+  enz
+end note
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_112-b15
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: nl
+Country: NL
+-->
+    </g>
+</svg>
